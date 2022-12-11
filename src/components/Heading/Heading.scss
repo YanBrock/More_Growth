@@ -1,0 +1,59 @@
+.heading {
+    width: 100%;
+    height: 115em;
+    background: no-repeat center/80% url("../../../static/designer_1.svg");
+    background-size: 100%;
+    background-position: top -1.1em left 37.3em;
+    margin-bottom: 12.665em;
+}
+
+
+.main-content {
+    width: 53.937em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 30.9em 0 0 9.1em;
+
+    .title {
+        font-weight: 500;
+        font-size: 5rem;
+        line-height: 6.6rem;
+        letter-spacing: .1rem;
+        color: #454E54;
+        margin-bottom: 2rem;
+    }
+
+    .subtitle {
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 3rem;
+        color: #505F98;
+        margin-bottom: 6.9rem;
+
+        .space {
+            display: inline-block;
+            margin-top: 1.4rem;
+        }
+    }
+
+    .btn-wrapper {
+        display: flex;
+    }
+
+    button {
+
+        &.purchase {
+            margin-right: 3.017em;
+        }
+
+        &#learn {
+            background-color: transparent;
+            border: .2rem solid #454E54;
+
+            & #learn {
+                color: #454E54;
+            }
+        }
+    }
+}

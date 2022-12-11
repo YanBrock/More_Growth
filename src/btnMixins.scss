@@ -1,0 +1,77 @@
+@mixin medium12 {
+
+    font: {
+        style: normal;
+        weight: 500;
+        size: 1.2rem;
+    };
+
+    line-height: 1.8rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@mixin medium16 {
+
+    font: {
+        style: normal;
+        weight: 500;
+        size: 1.6rem;
+    };
+
+    line-height: 2.6rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@mixin medium14 {
+
+    font: {
+        style: normal;
+        weight: 500;
+        size: 1.4rem;
+    };
+
+    line-height: 2.4rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@mixin medium50 {
+
+    font: {
+        style: normal;
+        weight: 500;
+        size: 5rem;
+    };
+
+    line-height: 6.6rem;
+    letter-spacing: .1rem;
+    color: #454E54;
+}
+
+@mixin medium20 {
+
+    font: {
+        style: normal;
+        weight: 500;
+        size: 2rem;
+    };
+
+    line-height: 3.4rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@mixin medium24 {
+
+    font: {
+        style: normal;
+        weight: 500;
+        size: 2.4rem;
+    };
+
+    line-height: 4rem;
+    text-align: center;
+    color: #FFFFFF;
+}

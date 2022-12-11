@@ -1,0 +1,50 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: #E7ECFF;
+
+    .top {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #CDD1D4;
+        padding: 6.061em 0 4em 0;
+
+        span {
+            font-weight: 500;
+            font-size: 1.4rem;
+            line-height: 2.4rem;
+            color: #939EA4;
+            margin-right: 38.2rem;
+        }
+
+        h1 {
+            font-weight: 900;
+            font-size: 2.5rem;
+            line-height: 3.8rem;
+            color: #37447E;
+            margin-right: 40.7rem;
+        }
+    }
+
+    .bottom {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 2.0em 0 2.639em 0;
+
+        .social {
+            display: flex;
+
+            .link:not(:last-child) {
+                margin-right: 3em;
+            }
+
+            img {
+                width: 1.6em;
+                height: 1.6em;
+            }
+        }
+    }
+}

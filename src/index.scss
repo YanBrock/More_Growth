@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+
+$roboto: 'Roboto';
+
+@function scaleValue(
+  $value,
+  $idealViewportWidth: 1440,
+  $min: 320px,
+  $max: 1440px,
+) {
+  @return calc(
+    #{$value} * (clamp(#{$min}, 100vw, #{$max}) / #{$idealViewportWidth})
+  );
+}
+
+@mixin adaptiveFontSize {
+    font-size: scaleValue(10);
+}
+
+html {
+    @include adaptiveFontSize;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: $roboto;
+}

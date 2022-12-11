@@ -1,0 +1,31 @@
+@use './btnMixins';
+
+article.not-found {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & section {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        h1 {
+            @include btnMixins.medium50;
+        }
+
+        p {
+            @include btnMixins.medium24;
+            color: black;
+            margin-bottom: 3rem;
+        }
+
+        button.medium12 {
+            align-self: flex-end;
+        }
+    }
+    
+}

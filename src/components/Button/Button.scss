@@ -1,0 +1,66 @@
+@use '../../../src/btnMixins';
+
+@mixin styledBtn {
+    display: flex;
+    background-color: #111B47;
+    border-radius: .2rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color .2s;
+
+    &:hover {
+        background: #37447E;
+    }
+}
+
+@mixin styledLink {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+button.medium12{
+    @include styledBtn;
+
+    .link {
+        @include styledLink;
+        @include btnMixins.medium12;
+    }
+}
+
+button.medium14{
+    @include styledBtn;
+
+    .link {
+        @include styledLink;
+        @include btnMixins.medium14;
+    }
+}
+
+button.medium16{
+    @include styledBtn;
+
+    .link {
+        @include styledLink;
+        @include btnMixins.medium16;
+    }
+}
+
+button.medium20{
+    @include styledBtn;
+
+    .link {
+        @include styledLink;
+        @include btnMixins.medium20;
+    }
+}
+
+button.medium24{
+    @include styledBtn;
+
+    .link {
+        @include styledLink;
+        @include btnMixins.medium24;
+    }
+}

@@ -1,0 +1,24 @@
+nav {
+    display: flex;
+    margin-right: 27.1em;
+
+    .link {
+        font: {
+            weight: 400;
+            size: 1.4rem;
+        };
+
+        line-height: 2.4rem;
+        color: #505F98;
+        cursor: pointer;
+        transition: color .2s;
+
+        &:not(:last-child) {
+            margin-right: 6rem;
+        };
+
+        &:hover {
+            color: #000000;
+        };
+    }
+}

@@ -1,0 +1,46 @@
+.details2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16.7em;
+    width: 100%;
+
+   .container {
+        display: flex;
+        align-items: center;
+    }
+
+    .image {
+        width: 50%;
+        margin-right: 15.5em;
+
+        img {
+            width: 48em;
+            height: 100%;
+        }
+    }
+
+    .text {
+        max-width: 44.5em;
+        align-items: flex-start;
+
+        .title {
+            font-weight: 500;
+            font-size: 3.6rem;
+            line-height: 4.8rem;
+            color: #454E54;
+            margin-bottom: 1.6rem;
+        }
+
+        .subtitle {
+            font-weight: 400;
+            font-size: 1.6rem;
+            line-height: 2.6rem;
+            color: #5D6970;
+            .subtitle-space {
+                display: block;
+                margin-top: 1rem;
+            }
+        }
+    }
+}
+

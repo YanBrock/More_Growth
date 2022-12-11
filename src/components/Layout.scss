@@ -1,0 +1,21 @@
+.layout {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 144em;
+
+    .container {
+        min-width: 111em;
+    }
+
+    main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 auto;
+        align-items: center;
+    }
+}
