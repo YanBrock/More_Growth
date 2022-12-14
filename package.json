@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "start": "gatsby develop",
@@ -14,12 +15,12 @@
   },
   "dependencies": {
     "gatsby": "^5.2.0",
-    "gatsby-plugin-sass": "^6.2.0",
-    "sass": "^1.56.1",
     "gatsby-plugin-react-helmet": "^6.2.0",
+    "gatsby-plugin-sass": "^6.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "sass": "^1.56.1"
   },
   "repository": {
     "type": "git",
@@ -27,5 +28,8 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
